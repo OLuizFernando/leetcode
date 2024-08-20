@@ -1,2 +1,2 @@
 # LeetCode
-Alguns problemas do LeetCode e minhas soluções para eles.
+Some LeetCode exercises and my resolution for them.
