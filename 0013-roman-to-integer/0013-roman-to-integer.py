@@ -30,8 +30,9 @@ class Solution(object):
 
             if s[i] in ["I", "X", "C"] and s[i + 1] in subtracts[s[i]]:
                 res -= symbols[s[i]]
-            else:
-                res += symbols[s[i]]
+                continue
+
+            res += symbols[s[i]]
 
         return res
         
